@@ -2,9 +2,10 @@ document.getElementById(add);
 
 
 function addNumber(add){
-    document.getElementById(number);
-    var number = 5;number++;
-    document.write(number);
+    const numberElement = document.getElementById("number");
+    var number = parseInt(numberElement.textContent);
+    number++;
+    numberElement.innerText = number;
     
 }
 
@@ -13,8 +14,8 @@ document.getElementById(subtract);
 
 
 function subNumber(subtract){
-    document.getElementById(number);
-    var number = 5;number--;
-    document.write(number);
-    
+    const numberElement = document.getElementById("number");
+    var number = parseInt(numberElement.textContent);
+    number--;
+    numberElement.innerText = number;
 }
