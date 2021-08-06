@@ -45,3 +45,16 @@ if (mynum1 > mynum2){
 else{
   console.log("bye");
 }
+
+for (i=1; i<=50; i++) {
+  console.log(i);
+
+}
+
+//while loops
+ 
+var e=0;
+while (e<=10) {
+  console.log(e);
+  e++;
+}
